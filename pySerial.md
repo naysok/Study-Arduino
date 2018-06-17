@@ -10,8 +10,13 @@
 Arduino ←→ Python  
 シリアル通信には、pySerialを使う。  
 （[https://pythonhosted.org/pyserial/](https://pythonhosted.org/pyserial/)）  
+```
+pip3 install pyserial
+```
+
 
 ---  
+
 
 ### デバイス名  
 
@@ -22,7 +27,9 @@ $ ls /dev/tty.*
 ```
 と入力してやれば、'/dev/tty.usbserial-*****'と表示されるので確認できる。  
 
+
 ---  
+
 
 ### Python → Arduino  
 
@@ -30,7 +37,16 @@ $ ls /dev/tty.*
 
 (2) Send-01.py を実行すると、コマンドプロンプトの入力から、LED をつけたり消したりできる。  
 
+
+
 ---  
+
+
+### Arduino → Python  
+
+
+---  
+
 
 ### 参考元
 

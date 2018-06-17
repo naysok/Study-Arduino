@@ -9,7 +9,7 @@
 - Test-pySerial // .ino + .py  
   - Send-01.py  
 
-- [pySerial.md]() // memo
+- [pySerial.md](https://github.com/naysok/Study-Arduino/blob/master/pySerial.md) // memo
 
 
 
