@@ -8,11 +8,11 @@ void setup() {
 
 void loop() {
   digitalWrite(LED_PIN, HIGH);
-  // Serial.println("high");
-  delay(200);
+  Serial.println("high");
+  delay(1000);
 
   digitalWrite(LED_PIN, LOW);
-  // Serial.println("low");
+  Serial.println("low");
   delay(1000);
 
 }

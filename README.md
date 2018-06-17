@@ -2,6 +2,21 @@
 
 
 
+### index  
+
+- LED-Debug-13 // Lチカ  
+
+- Test-pySerial // .ino + .py  
+  - Send-01.py  
+
+- [pySerial.md]() // memo
+
+
+
+---  
+
+---  
+
 ### Arduino のデバッグ  
 
 13 番ピンは、ボードに乗ったデバッグ用の LED  
