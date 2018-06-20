@@ -16,14 +16,24 @@ def main():
             ser.write(flag)
 
             #シリアル通信:送信
-            if(flag==bytes('s','utf-8')):
-                print("LED : high")
+            if(flag==bytes('a','utf-8')):
+                break
+
+            elif(flag==bytes('s','utf-8')):
+                #print("LED : high")
+                pass
 
             elif(flag==bytes('q','utf-8')):
-                print("LED : low")
+                #print("LED : low")
+                pass
 
-            elif(flag==bytes('a','utf-8')):
-                break
+
+            # Arduino の Serial.println で流した文字列を
+            # これで受け取って、コマンドプロンプトに表示
+            c = ser.readline()
+            print(c)
+
+
 
         ser.close()
 

@@ -13,12 +13,12 @@ void loop(){
     switch(inputchar){
       case 's':
         digitalWrite(13,HIGH);
-        Serial.println("high");
+        Serial.println("Arduino LED : HIGH");
         break;
 
       case 'q':
         digitalWrite(13,LOW);
-        Serial.println("low");
+        Serial.println("Arduino LED : LOW");
         break;
     }
   }
