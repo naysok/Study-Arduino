@@ -47,8 +47,7 @@ ls /dev/tty.*
 
 ### Arduino → Python  
 
-上の Python → Arduino の Send-01.py の中に、  
-readline() 関数を追加した。  
+上の Python → Arduino の Send-01.py の中に、readline() 関数を追加した。  
 
 Arduino のコードの、Serial.println(str) を受け取って、コマンドプロンプトで表示。  
 
@@ -60,5 +59,4 @@ Arduino のコードの、Serial.println(str) を受け取って、コマンド�
 ### Reference  
 
 - PC-Arduino間 Python経由 シリアル通信備忘録（[https://qiita.com/Acqua_Alta/items/9f19afddc6db1e4d4286](https://qiita.com/Acqua_Alta/items/9f19afddc6db1e4d4286)）  
-
 - Python3でArduinoからのデータを受信する（[http://k99-tech.com/blog/archives/826](http://k99-tech.com/blog/archives/826)）  

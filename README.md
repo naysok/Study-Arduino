@@ -6,10 +6,14 @@
 
 - LED-Debug-13 // Lチカ  
 
-- Test-pySerial // .ino + .py  
-  - Send-01.py  
+- LED-x3 // Lチカ x3  
 
-- [pySerial.md](https://github.com/naysok/Study-Arduino/blob/master/pySerial.md) // memo
+- Test-pySerial // Python ←→ Arduino でのシリアル通信  
+  - Test-Send  
+    - Test-Send.ino  
+  - Send-01.py // Sender + Reader  
+
+- [pySerial.md](https://github.com/naysok/Study-Arduino/blob/master/pySerial.md) // pySerial memo  
 
 
 
