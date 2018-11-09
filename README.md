@@ -28,6 +28,8 @@
 
 ### Arduino のデバッグ  
 
+LED-Debug-13.ino  
+
 13 番ピンは、ボードに乗ったデバッグ用の LED  
 いわゆるLチカです。  
 
@@ -85,13 +87,43 @@ low
 .
 .
 .
-
-
 */
 ```
+
+##### Ref.  
+
+Serial.println(); が見えない  
+[http://canon4444.hatenablog.com/entry/2015/04/29/181308](http://canon4444.hatenablog.com/entry/2015/04/29/181308)  
 
 
 ---  
 
 
-###
+### analogWrite()   
+
+LED-analogWrite.ino  
+
+digitalWrite() は、HIGH or LOW （ON or OFF）の二択  
+analogWrite() は、0 ~ 255 までの値を取れる
+
+仕組みは、PWM（Plus Width Modulation：パルス幅変調）
+
+LED はこれで、光る強さを制御できた。  
+
+
+##### Ref.  
+
+PWMを使ってLEDの明るさと出力を制御する ～ Arduino LV5 ～  
+[http://www.japanese-makers.com/archives/157](http://www.japanese-makers.com/archives/157)  
+
+
+
+
+----  
+
+
+### 手元にあるフルカラー LED のメモ  
+
+カソードコモンというタイプ  
+
+![photo](photo/FullColor-LED.jpg)  
