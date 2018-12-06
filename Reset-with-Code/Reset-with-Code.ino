@@ -30,13 +30,15 @@ void loop() {
   const int Before = 111;
   const int After = 999;
 
-  Serial.println(Before);
-  // Serial.println("Reset(Before)");
+//  Serial.println(Before);
+  Serial.println("Reset(Before)");
+  delay(breaktime);
 
-  // resetFunc(); //call reset
+  resetFunc(); //call reset
 
-  Serial.println(After);
-  // Serial.println("Reset(After)");
+//  Serial.println(After);
+  Serial.println("Reset(After)");
+  delay(breaktime);
 
 
 
