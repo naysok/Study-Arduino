@@ -1,6 +1,6 @@
 #define resetPin 12       //This is connected DIRECTLY to the Reset pin on the Arduino.
 
-
+int i = 0;
 
 // void PIN_reset() {
 //  Serial.println("PIN_RESET");
@@ -14,11 +14,16 @@ void setup() {
   Serial.begin(9600);
   Serial.println("Hello");
 
+
+
 }
 
 
 
 void loop() {
+
+  Serial.println(i);
+  i++;
 
 
   digitalWrite(13, HIGH);
