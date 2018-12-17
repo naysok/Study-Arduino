@@ -54,6 +54,17 @@ screen コマンドでシリアル通信 for Mac & Linux(Qiita)
 
 Arduino のコードの、Serial.println(str) を受け取って、コマンドプロンプトで表示。  
 
+```
+b''
+b'hello'
+```
+のかたちで返ってくるので、  
+decode() で、デコードすると良さそう。  
+```cpp
+src_c = ser.readline()
+c = src_c.decode("utf-8")
+print(c)
+```
 
 
 ---  
