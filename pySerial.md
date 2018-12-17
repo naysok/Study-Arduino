@@ -30,6 +30,9 @@ ls /dev/tty.*
 ```
 と入力してやれば、'/dev/tty.usbserial-*****'と表示されるので確認できる。  
 
+screen コマンドでシリアル通信 for Mac & Linux(Qiita)  
+[https://qiita.com/hideyuki/items/9258f33180d98ad0cb1e](https://qiita.com/hideyuki/items/9258f33180d98ad0cb1e)  
+
 
 ---  
 
